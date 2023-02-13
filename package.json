@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "name": "matrimonialsite-main",
+  "homepage":"https://github.com/kashishvatsh/ETEProject_2010991591.git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
